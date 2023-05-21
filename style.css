@@ -1,0 +1,485 @@
+@media only screen and (min-width: 768px){
+  body {
+      background-color: #f5f5f5;
+    }
+
+  .profile {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: 30px;
+  }
+
+  .container {
+    position: absolute;
+    display: flex;
+  }
+
+  .left {
+    flex-basis: 200px;
+    border-right: solid black 2px;
+  }
+
+  .right {
+    margin-left: 10px;
+    flex: 1;
+  }
+
+  .selfie {
+    float: left;
+    height: 300px;
+    margin-right: 80px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+  }
+
+  .education_bold,
+  .projects_bold {
+    font-weight: bolder;
+    font-size: 30px;
+  }
+
+  .resume {
+    padding: 0px;
+    margin: 30px;
+    color: #d4d3d3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 600;
+  }
+
+  .resume img {
+    height: 150px;
+  }
+
+  .education {
+    position: relative;
+  }
+
+  .details p,
+  .education .education_information {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .education .education_information {
+    font-size: 20px;
+  }
+
+  .details .details_name {
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 40px;
+  }
+
+  .details .details_specialty {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: condensed;
+  }
+
+  .dropdown.last_row{
+    display:none;
+  }
+
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+  }
+
+  .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+
+  .expandable_row {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+  }
+
+  .expanded_info {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+  }
+
+  .expandable_row:hover {
+    transform: scale(1.05);
+  }
+
+  .sethide:hover .last_row{
+    display:none;
+  }
+
+  .dropdown:hover .expanded_info {
+    display: block;
+  }
+
+  .socials {
+    border: 2px solid black;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socials a img {
+    padding: 10px;
+    margin-left: 60px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .socials a {
+    transform: scale(1);
+    transition: transform 1s ease;
+  }
+
+  .socials a:hover {
+    transition: transform 1s ease;
+    transform: scale(1.15);
+  }
+
+  .spacer {
+    margin-top: 200px;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  body {
+      background-color: #f5f5f5;
+    }
+
+  .profile {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: 30px;
+  }
+
+  .container {
+    position: absolute;
+    display: flex;
+  }
+
+  .left {
+    flex-basis: 200px;
+    border-right: solid black 2px;
+  }
+
+  .right {
+    margin-left: 10px;
+    flex: 1;
+  }
+
+  .selfie {
+    float: left;
+    height: 300px;
+    margin-right: 80px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+  }
+
+  .education_bold,
+  .projects_bold {
+    font-weight: bolder;
+    font-size: 30px;
+  }
+
+  .resume {
+    padding: 0px;
+    margin: 30px;
+    color: #d4d3d3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 600;
+  }
+
+  .resume img {
+    height: 150px;
+  }
+
+  .education {
+    position: relative;
+  }
+
+  .details p,
+  .education .education_information {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .education .education_information {
+    font-size: 20px;
+  }
+
+  .details .details_name {
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 40px;
+  }
+
+  .details .details_specialty {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: condensed;
+  }
+
+  .dropdown.last_row{
+    display:none;
+  }
+
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+  }
+
+  .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+
+  .expandable_row {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+  }
+
+  .expanded_info {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+  }
+
+  .expandable_row:hover {
+    transform: scale(1.05);
+  }
+
+  .sethide:hover .last_row{
+    display:none;
+  }
+
+  .dropdown:hover .expanded_info {
+    display: block;
+  }
+
+  .socials {
+    border: 2px solid black;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socials a img {
+    padding: 10px;
+    margin-left: 60px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .socials a {
+    transform: scale(1);
+    transition: transform 1s ease;
+  }
+
+  .socials a:hover {
+    transition: transform 1s ease;
+    transform: scale(1.15);
+  }
+
+  .spacer {
+    margin-top: 200px;
+  }
+}
+
+@media only screen and (min-width: 1920px){
+  body {
+      background-color: #f5f5f5;
+    }
+
+  .profile {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: 30px;
+  }
+
+  .container {
+    position: absolute;
+    display: flex;
+  }
+
+  .left {
+    flex-basis: 200px;
+    border-right: solid black 2px;
+  }
+
+  .right {
+    margin-left: 10px;
+    flex: 1;
+  }
+
+  .selfie {
+    float: left;
+    height: 500px;
+    margin-right: 80px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+  }
+
+  .education_bold,
+  .projects_bold {
+    font-weight: bolder;
+    font-size: 30px;
+  }
+
+  .resume {
+    padding: 0px;
+    margin: 30px;
+    color: #d4d3d3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 600;
+  }
+
+  .resume img {
+    height: 200px;
+  }
+
+  .education {
+    position: relative;
+  }
+
+  .details p,
+  .education .education_information {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .details_long{
+    font-weight:500;
+  }
+  .details .details_name {
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 40px;
+  }
+
+  .details .details_specialty {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    font-stretch: condensed;
+  }
+
+
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+  }
+
+  .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+
+  .expandable_row {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+  }
+
+  .expanded_info {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+  }
+
+  .expandable_row:hover {
+    transform: scale(1.05);
+  }
+
+  .dropdown:hover .expanded_info {
+    display: block;
+  }
+
+  .socials {
+    border: 2px solid black;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socials a img {
+    padding: 10px;
+    margin-left: 60px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .socials a {
+    transform: scale(1);
+    transition: transform 1s ease;
+  }
+
+  .socials a:hover {
+    transition: transform 1s ease;
+    transform: scale(1.15);
+  }
+
+  .spacer {
+    margin-top: 200px;
+  }
+}
